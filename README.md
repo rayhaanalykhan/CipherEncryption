@@ -1,6 +1,6 @@
 # CipherEncryption
 
-A Swift library for cryptographic operations using encryption algorithms
+A Swift library for cryptographic operations using encryption algorithms.
 
 ## Features
 
@@ -31,7 +31,7 @@ To use CipherEncryption in your project, you will typically follow these steps:
     
     let someString = "someString"
         
-    if let encryptedString = someString.ce.SHA256 { // ce = CipherEncryption
+    if let encryptedString = someString.ce.SHA256 {
             print(encryptedString)
             
     } else {
