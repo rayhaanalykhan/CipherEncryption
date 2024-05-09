@@ -31,7 +31,7 @@ To use CipherEncryption in your project, you will typically follow these steps:
     
     let someString = "someString"
         
-    if let encryptedString = someString.ce.SHA256 {
+    if let encryptedString = someString.ce.SHA256 { // ce = CipherEncryption
             print(encryptedString)
             
     } else {
@@ -46,7 +46,7 @@ To use CipherEncryption in your project, you will typically follow these steps:
     ```swift
         let someString = "someString"
         
-        if let encryptedString = someString.encrypt(.SHA1) { // ce = CipherEncryption
+        if let encryptedString = someString.encrypt(.SHA1) {
             print(encryptedString)
             
         } else {
@@ -60,7 +60,7 @@ Using function is more feasible in some cases, you can use the enum defined on S
 
 ## License
 
-SwiftStrideIO is released under the MIT License. See the [LICENSE](LICENSE) file for further details.
+SwiftStrideIO is released under the MIT License. See the [LICENSE]([LICENSE](https://github.com/rayhaanalykhan/CipherEncryption/blob/main/LICENSE.md)) file for further details.
 
 ## Contribution
 
