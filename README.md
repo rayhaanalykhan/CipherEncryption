@@ -60,7 +60,7 @@ Using function is more feasible in some cases, you can use the enum defined on S
 
 ## License
 
-CipherEncryption is released under the MIT License. See the ([LICENSE](https://github.com/rayhaanalykhan/CipherEncryption/blob/main/LICENSE.md)) file for further details.
+CipherEncryption is released under the MIT License. See the [LICENSE](https://github.com/rayhaanalykhan/CipherEncryption/blob/main/LICENSE.md) file for further details.
 
 ## Contribution
 
