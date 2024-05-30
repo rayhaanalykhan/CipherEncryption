@@ -3,7 +3,7 @@
 //
 //  Created by rayhaanalykhan on 08/05/2024.
 //
-//  This file is part of SwiftStrideIO. For licensing information, see the LICENSE file.
+//  This file is part of CipherEncryption. For licensing information, see the LICENSE file.
 //
 
 import Foundation
@@ -53,7 +53,7 @@ public extension String {
     }
 }
 
-// CipherEncryption class to handle encryption procedures
+/// `CipherEncryption` class to handle encryption procedures.
 public class CipherEncryption {
     
     private let baseString: String  // Stores the original string to be encrypted
