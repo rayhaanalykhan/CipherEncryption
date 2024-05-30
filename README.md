@@ -7,6 +7,13 @@ A Swift library for cryptographic operations using encryption algorithms.
 - Support for encrypting strings using common encryption algorithms.
 - Simplified API for easy encryption operations.
 
+## Algorithms List
+1. SHA1
+2. SHA224
+3. SHA256
+4. SHA384
+5. SHA512
+
 ## Installation
 
 ### Swift Package Manager (SPM) using Xcode
@@ -60,7 +67,7 @@ Using function is more feasible in some cases, you can use the enum defined on S
 
 ## License
 
-CipherEncryption is released under the MIT License. See the ([LICENSE](https://github.com/rayhaanalykhan/CipherEncryption/blob/main/LICENSE.md)) file for further details.
+CipherEncryption is released under the MIT License. See the [LICENSE](https://github.com/rayhaanalykhan/CipherEncryption/blob/main/LICENSE.md) file for further details.
 
 ## Contribution
 
