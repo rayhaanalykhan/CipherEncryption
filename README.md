@@ -46,7 +46,7 @@ To use CipherEncryption into your project, you can utilize the following approac
     ```
     ```swift
     // Alternate
-    print(someString.ce.SHA1 ?? "Couldn't be encrypted")
+    print("someString".ce.SHA1 ?? "Couldn't be encrypted")
     ```
 
 2. **Encrypt using encrypt function:**
@@ -64,7 +64,7 @@ To use CipherEncryption into your project, you can utilize the following approac
     ```
     ```swift
     // Alternate
-    print(someString.encrypt(.SHA1) ?? "Couldn't be encrypted")
+    print("someString".encrypt(.SHA1) ?? "Couldn't be encrypted")
     ```
 
 Using function is more feasible in some cases, you can use the enum defined on String class extension and pass it in a function.
