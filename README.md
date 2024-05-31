@@ -28,7 +28,7 @@ To integrate SwiftStrideIO into your Xcode project using Swift Package Manager, 
 
 ## Usage
 
-To use CipherEncryption in your project, you will typically follow these steps:
+To use CipherEncryption into your project, you can utilize the following approaches:
 
 1. **Encrypt using computed properties:**
 
@@ -75,4 +75,4 @@ Contributors are welcomed to fork the project and submit pull requests. Please i
 
 ## Contact
 
-For further information, contact rayhaanalykhan at their [GitHub profile](https://github.com/rayhaanalykhan).
+For further information, contact me via email [rayhaanalykhan@gmail.com](mailto:rayhaanalykhan@gmail.com).
