@@ -51,14 +51,14 @@ To use CipherEncryption into your project, you can utilize the following approac
     Similary you can use the encrypt function to encrypt the string.
    
     ```swift
-        let someString = "someString"
+    let someString = "someString"
         
-        if let encryptedString = someString.encrypt(.SHA1) {
-            print(encryptedString)
+    if let encryptedString = someString.encrypt(.SHA1) {
+        print(encryptedString)
             
-        } else {
-            print("Could not encrypt this: '\(someString)' in SHA256")
-        }
+    } else {
+        print("Could not encrypt this: '\(someString)' in SHA256")
+    }
     ```
 
 Using function is more feasible in some cases, you can use the enum defined on String class extension and pass it in a function.
