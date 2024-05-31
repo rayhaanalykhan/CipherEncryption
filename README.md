@@ -39,8 +39,7 @@ To use CipherEncryption into your project, you can utilize the following approac
     let someString = "someString"
         
     if let encryptedString = someString.ce.SHA256 { // ce = CipherEncryption
-        print(encryptedString)
-            
+        print(encryptedString)    
     } else {
         print("Could not encrypt this: '\(someString)' in SHA256")
     }
@@ -54,8 +53,7 @@ To use CipherEncryption into your project, you can utilize the following approac
     let someString = "someString"
         
     if let encryptedString = someString.encrypt(.SHA1) {
-        print(encryptedString)
-            
+        print(encryptedString)  
     } else {
         print("Could not encrypt this: '\(someString)' in SHA256")
     }
