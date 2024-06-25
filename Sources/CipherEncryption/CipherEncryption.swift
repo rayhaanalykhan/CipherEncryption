@@ -88,6 +88,7 @@ public class CipherEncryption {
         
         // Ensure the string can be converted to UTF8 data
         guard let inputData = baseString.data(using: .utf8) else {
+            print("CipherEncryption -> Error: Failed to convert \(baseString) to UTF8 data")
             return nil
         }
         
@@ -123,7 +124,7 @@ public class CipherEncryption {
                 CC_SHA1($0.baseAddress, CC_LONG(inputData.count), &hash)
             }
             
-        default:
+        default: // this will never be executed
             return nil
         }
         
