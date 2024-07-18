@@ -26,6 +26,7 @@ public extension String {
     ///
     /// - Parameter encryption: The encryption algorithm to use.
     /// - Returns: The encrypted string, or nil if encryption fails.
+    ///
     func encrypt(_ encryption: Encryption) -> String? {
         
         switch encryption {
