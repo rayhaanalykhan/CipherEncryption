@@ -13,7 +13,7 @@ import CommonCrypto
 public extension String {
     
     // Enumeration defining different encryption algorithms
-    enum Encryption {
+    enum Encryption: Sendable {
         
         case SHA1
         case SHA224
